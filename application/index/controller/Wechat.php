@@ -13,10 +13,9 @@ class Wechat extends Controller
     private $app_secret = '419d59cd73a4d49ae00315c836bf5be3';
 
     public function index() {
-        var_dump(1234);
-        dump($_GET);
         //$this->get_authorize_url('https://dev.alvinsite.top','123');
-        $this->get_access_token($this->app_id,$this->app_secret,$_GET['code']);
+        //$this->get_access_token($this->app_id,$this->app_secret,$_GET['code']);
+        return $this->fetch('activity_publish');
     }
 
     /**
@@ -65,10 +64,10 @@ class Wechat extends Controller
                
             if($info_data[0] == 200)
             {
-                dump(json_decode($info_data[1], TRUE));
+                //dump(json_decode($info_data[1], TRUE));
                 //return json_decode($info_data[1], TRUE);
-            } else
-                dump($info_data);
+                
+            }
         }
          
         return FALSE;

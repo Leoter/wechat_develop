@@ -1,0 +1,377 @@
+---------------------------------------------------------------
+[ 2018-03-02T00:41:29+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.129453s][吞吐率：7.72req/s] [内存消耗：2,617.82kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: code[C:\wamp64\www\appSystem\application\index\controller\Wechat.php:19]
+---------------------------------------------------------------
+[ 2018-03-02T00:45:02+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.057167s][吞吐率：17.49req/s] [内存消耗：2,615.52kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: code[C:\wamp64\www\appSystem\application\index\controller\Wechat.php:17]
+---------------------------------------------------------------
+[ 2018-03-02T00:45:06+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.361507s][吞吐率：2.77req/s] [内存消耗：2,615.52kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: code[C:\wamp64\www\appSystem\application\index\controller\Wechat.php:17]
+---------------------------------------------------------------
+[ 2018-03-02T00:45:26+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.047745s][吞吐率：20.94req/s] [内存消耗：2,615.69kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: code[C:\wamp64\www\appSystem\application\index\controller\Wechat.php:17]
+---------------------------------------------------------------
+[ 2018-03-02T00:45:29+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.047033s][吞吐率：21.26req/s] [内存消耗：2,615.52kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: code[C:\wamp64\www\appSystem\application\index\controller\Wechat.php:17]
+---------------------------------------------------------------
+[ 2018-03-02T00:46:02+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.046932s][吞吐率：21.31req/s] [内存消耗：2,603.18kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html[C:\wamp64\www\appSystem\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-03-02T00:46:04+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.036680s][吞吐率：27.26req/s] [内存消耗：2,603.18kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html[C:\wamp64\www\appSystem\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-03-02T00:46:04+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.035849s][吞吐率：27.89req/s] [内存消耗：2,603.18kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html[C:\wamp64\www\appSystem\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-03-02T00:46:05+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.043921s][吞吐率：22.77req/s] [内存消耗：2,603.18kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html[C:\wamp64\www\appSystem\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-03-02T00:53:35+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.037754s][吞吐率：26.49req/s] [内存消耗：2,603.18kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html[C:\wamp64\www\appSystem\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-03-02T00:53:36+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.043967s][吞吐率：22.74req/s] [内存消耗：2,603.18kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html[C:\wamp64\www\appSystem\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-03-02T00:53:37+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.047291s][吞吐率：21.15req/s] [内存消耗：2,603.18kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html[C:\wamp64\www\appSystem\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-03-02T00:53:55+08:00 ] 0.0.0.0 GET /appSystem/public/index.php/index/wechat
+[ info ] localhost/appSystem/public/index.php/index/wechat [运行时间：0.334821s][吞吐率：2.99req/s] [内存消耗：2,788.31kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; username-localhost-8888="2|1:0|10:1517463754|23:username-localhost-8888|44:MjZmMmVjYTljNGE5NGFmZjgyYjk4MGZlMTA3OTZlNjM=|d06bf7215a97e5a17bfca16d74911e6c0dcd85512561a23e1127cf1997047a83"; _xsrf=2|00f97bf2|a562b88221d965fb584b6d165902b84a|1517463754',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
