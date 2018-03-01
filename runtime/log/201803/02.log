@@ -375,3 +375,3748 @@
 [ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:22:55+08:00 ] 127.0.0.1 GET /
+[ info ] www.appsystem.com/ [运行时间：0.034169s][吞吐率：29.27req/s] [内存消耗：2,599.05kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\appSystem\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[C:\wamp64\www\appSystem\application\index\controller\Index.php:35]
+---------------------------------------------------------------
+[ 2018-03-02T01:34:23+08:00 ] 127.0.0.1 GET /
+[ info ] www.appsystem.com/ [运行时间：0.034370s][吞吐率：29.09req/s] [内存消耗：2,598.74kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\appSystem\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[C:\wamp64\www\appSystem\application\index\controller\Index.php:35]
+---------------------------------------------------------------
+[ 2018-03-02T01:34:48+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.032127s][吞吐率：31.13req/s] [内存消耗：2,536.34kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:36:06+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.034793s][吞吐率：28.74req/s] [内存消耗：2,788.21kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:36:39+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.033642s][吞吐率：29.72req/s] [内存消耗：2,789.36kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:36:39+08:00 ] 127.0.0.1 GET /index.php/index/iconfont.woff
+[ info ] www.appsystem.com/index.php/index/iconfont.woff [运行时间：0.039160s][吞吐率：25.54req/s] [内存消耗：2,066.45kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'iconfont.woff',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:36:42+08:00 ] 127.0.0.1 GET /index.php/index/iconfont.ttf
+[ info ] www.appsystem.com/index.php/index/iconfont.ttf [运行时间：0.041746s][吞吐率：23.95req/s] [内存消耗：2,066.50kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'iconfont.ttf',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:37:49+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.026433s][吞吐率：37.83req/s] [内存消耗：2,789.75kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:37:49+08:00 ] 127.0.0.1 GET /index.php/index/image/iconfont.woff
+[ info ] www.appsystem.com/index.php/index/image/iconfont.woff [运行时间：0.031861s][吞吐率：31.39req/s] [内存消耗：2,066.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:37:49+08:00 ] 127.0.0.1 GET /index.php/index/image/iconfont.ttf
+[ info ] www.appsystem.com/index.php/index/image/iconfont.ttf [运行时间：0.032840s][吞吐率：30.45req/s] [内存消耗：2,066.11kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:38:59+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.030488s][吞吐率：32.80req/s] [内存消耗：2,789.96kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:38:59+08:00 ] 127.0.0.1 GET /index.php/index/image/static//iconfont.woff
+[ info ] www.appsystem.com/index.php/index/image/static//iconfont.woff [运行时间：0.031867s][吞吐率：31.38req/s] [内存消耗：2,066.03kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:38:59+08:00 ] 127.0.0.1 GET /index.php/index/image/static//iconfont.ttf
+[ info ] www.appsystem.com/index.php/index/image/static//iconfont.ttf [运行时间：0.035409s][吞吐率：28.24req/s] [内存消耗：2,066.01kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:00+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.027620s][吞吐率：36.21req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:00+08:00 ] 127.0.0.1 GET /index.php/index/image/static//iconfont.woff
+[ info ] www.appsystem.com/index.php/index/image/static//iconfont.woff [运行时间：0.029841s][吞吐率：33.51req/s] [内存消耗：2,066.03kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:00+08:00 ] 127.0.0.1 GET /index.php/index/image/static//iconfont.ttf
+[ info ] www.appsystem.com/index.php/index/image/static//iconfont.ttf [运行时间：0.035862s][吞吐率：27.88req/s] [内存消耗：2,066.01kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:01+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.032468s][吞吐率：30.80req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:01+08:00 ] 127.0.0.1 GET /index.php/index/image/static//iconfont.woff
+[ info ] www.appsystem.com/index.php/index/image/static//iconfont.woff [运行时间：0.038544s][吞吐率：25.94req/s] [内存消耗：2,066.03kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:01+08:00 ] 127.0.0.1 GET /index.php/index/image/static//iconfont.ttf
+[ info ] www.appsystem.com/index.php/index/image/static//iconfont.ttf [运行时间：0.031649s][吞吐率：31.60req/s] [内存消耗：2,066.01kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:20+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.026572s][吞吐率：37.63req/s] [内存消耗：2,789.97kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:20+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.woff
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.woff [运行时间：0.030229s][吞吐率：33.08req/s] [内存消耗：2,066.05kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:20+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.ttf
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.ttf [运行时间：0.031161s][吞吐率：32.09req/s] [内存消耗：2,066.01kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:21+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.028214s][吞吐率：35.44req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:21+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.woff
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.woff [运行时间：0.030337s][吞吐率：32.96req/s] [内存消耗：2,066.05kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:21+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.ttf
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.ttf [运行时间：0.041177s][吞吐率：24.29req/s] [内存消耗：2,066.06kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:29+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.052838s][吞吐率：18.93req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:30+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.woff
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.woff [运行时间：0.043117s][吞吐率：23.19req/s] [内存消耗：2,066.05kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:30+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.ttf
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.ttf [运行时间：0.040573s][吞吐率：24.65req/s] [内存消耗：2,066.01kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:30+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.043873s][吞吐率：22.79req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:30+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.woff
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.woff [运行时间：0.031789s][吞吐率：31.46req/s] [内存消耗：2,066.05kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:30+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.ttf
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.ttf [运行时间：0.029555s][吞吐率：33.84req/s] [内存消耗：2,066.01kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:30+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.040451s][吞吐率：24.72req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:31+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.woff
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.woff [运行时间：0.038789s][吞吐率：25.78req/s] [内存消耗：2,066.05kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:31+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.ttf
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.ttf [运行时间：0.039143s][吞吐率：25.55req/s] [内存消耗：2,066.01kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:31+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.042092s][吞吐率：23.76req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:31+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.woff
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.woff [运行时间：0.036074s][吞吐率：27.72req/s] [内存消耗：2,066.05kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:39:31+08:00 ] 127.0.0.1 GET /index.php/index/image/static/iconfont.ttf
+[ info ] www.appsystem.com/index.php/index/image/static/iconfont.ttf [运行时间：0.031061s][吞吐率：32.19req/s] [内存消耗：2,066.01kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:07+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.030943s][吞吐率：32.32req/s] [内存消耗：2,789.96kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:07+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.028976s][吞吐率：34.51req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:08+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.030395s][吞吐率：32.90req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:08+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.026971s][吞吐率：37.08req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:09+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.032348s][吞吐率：30.91req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:09+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.030414s][吞吐率：32.88req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:09+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.025045s][吞吐率：39.93req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:09+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.033459s][吞吐率：29.89req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:09+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.035391s][吞吐率：28.26req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:09+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.026515s][吞吐率：37.71req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:09+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.030885s][吞吐率：32.38req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:09+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.034310s][吞吐率：29.15req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:09+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.022444s][吞吐率：44.56req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:09+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.038492s][吞吐率：25.98req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:09+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:10+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.022910s][吞吐率：43.65req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:10+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.034755s][吞吐率：28.77req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:10+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.041989s][吞吐率：23.82req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:15+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.030498s][吞吐率：32.79req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.034320s][吞吐率：29.14req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.038017s][吞吐率：26.30req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:15+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.028174s][吞吐率：35.49req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.032483s][吞吐率：30.79req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.028748s][吞吐率：34.78req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:43+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.029247s][吞吐率：34.19req/s] [内存消耗：2,789.96kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:43+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.woff
+[ info ] www.appsystem.com/static/public/image/iconfont.woff [运行时间：0.036940s][吞吐率：27.07req/s] [内存消耗：2,055.10kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:43+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.ttf
+[ info ] www.appsystem.com/static/public/image/iconfont.ttf [运行时间：0.033516s][吞吐率：29.84req/s] [内存消耗：2,054.94kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:43+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.026378s][吞吐率：37.91req/s] [内存消耗：2,536.84kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.woff
+[ info ] www.appsystem.com/static/public/image/iconfont.woff [运行时间：0.040009s][吞吐率：24.99req/s] [内存消耗：2,055.10kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.ttf
+[ info ] www.appsystem.com/static/public/image/iconfont.ttf [运行时间：0.033988s][吞吐率：29.42req/s] [内存消耗：2,054.94kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.023138s][吞吐率：43.22req/s] [内存消耗：2,536.84kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.woff
+[ info ] www.appsystem.com/static/public/image/iconfont.woff [运行时间：0.032221s][吞吐率：31.04req/s] [内存消耗：2,055.10kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.ttf
+[ info ] www.appsystem.com/static/public/image/iconfont.ttf [运行时间：0.033316s][吞吐率：30.02req/s] [内存消耗：2,054.94kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.025883s][吞吐率：38.64req/s] [内存消耗：2,536.84kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.woff
+[ info ] www.appsystem.com/static/public/image/iconfont.woff [运行时间：0.034969s][吞吐率：28.60req/s] [内存消耗：2,055.10kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.ttf
+[ info ] www.appsystem.com/static/public/image/iconfont.ttf [运行时间：0.042018s][吞吐率：23.80req/s] [内存消耗：2,054.94kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.032508s][吞吐率：30.76req/s] [内存消耗：2,536.84kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.woff
+[ info ] www.appsystem.com/static/public/image/iconfont.woff [运行时间：0.031552s][吞吐率：31.69req/s] [内存消耗：2,055.10kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.ttf
+[ info ] www.appsystem.com/static/public/image/iconfont.ttf [运行时间：0.031024s][吞吐率：32.23req/s] [内存消耗：2,054.94kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.026315s][吞吐率：38.00req/s] [内存消耗：2,536.84kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:44+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.woff
+[ info ] www.appsystem.com/static/public/image/iconfont.woff [运行时间：0.032159s][吞吐率：31.10req/s] [内存消耗：2,055.10kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:45+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.ttf
+[ info ] www.appsystem.com/static/public/image/iconfont.ttf [运行时间：0.034011s][吞吐率：29.40req/s] [内存消耗：2,054.94kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:45+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.024940s][吞吐率：40.10req/s] [内存消耗：2,536.84kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:45+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.woff
+[ info ] www.appsystem.com/static/public/image/iconfont.woff [运行时间：0.028556s][吞吐率：35.02req/s] [内存消耗：2,055.10kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:40:45+08:00 ] 127.0.0.1 GET /static/public/image/iconfont.ttf
+[ info ] www.appsystem.com/static/public/image/iconfont.ttf [运行时间：0.031005s][吞吐率：32.25req/s] [内存消耗：2,054.94kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:14+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.036553s][吞吐率：27.36req/s] [内存消耗：2,789.81kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:14+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.028344s][吞吐率：35.28req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:14+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.028147s][吞吐率：35.53req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.032340s][吞吐率：30.92req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.035233s][吞吐率：28.38req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.034785s][吞吐率：28.75req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.028176s][吞吐率：35.49req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.031816s][吞吐率：31.43req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.040896s][吞吐率：24.45req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.029548s][吞吐率：33.84req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.043354s][吞吐率：23.07req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.035560s][吞吐率：28.12req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.046350s][吞吐率：21.57req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.034209s][吞吐率：29.23req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:15+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.031097s][吞吐率：32.16req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:16+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.024827s][吞吐率：40.28req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:16+08:00 ] 127.0.0.1 GET /static/image/iconfont.woff
+[ info ] www.appsystem.com/static/image/iconfont.woff [运行时间：0.032024s][吞吐率：31.23req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:41:16+08:00 ] 127.0.0.1 GET /static/image/iconfont.ttf
+[ info ] www.appsystem.com/static/image/iconfont.ttf [运行时间：0.035979s][吞吐率：27.79req/s] [内存消耗：2,055.20kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'iconfont.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.appsystem.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:47:03+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.034121s][吞吐率：29.31req/s] [内存消耗：2,789.88kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:47:37+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.033314s][吞吐率：30.02req/s] [内存消耗：2,790.28kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:47:46+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.039405s][吞吐率：25.38req/s] [内存消耗：2,790.10kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:48:29+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.033572s][吞吐率：29.79req/s] [内存消耗：2,790.10kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:48:43+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.030228s][吞吐率：33.08req/s] [内存消耗：2,789.82kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:54:48+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.056465s][吞吐率：17.71req/s] [内存消耗：2,798.80kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:55:50+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.031657s][吞吐率：31.59req/s] [内存消耗：2,799.34kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T01:56:38+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.025921s][吞吐率：38.58req/s] [内存消耗：2,799.37kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:00:58+08:00 ] 127.0.0.1 GET /
+[ info ] www.appsystem.com/ [运行时间：0.046445s][吞吐率：21.53req/s] [内存消耗：2,599.38kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36 wechatdevtools/0.11.112301 MicroMessenger/{{version}} webview/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'linchao' => 'chaolin',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\appSystem\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[C:\wamp64\www\appSystem\application\index\controller\Index.php:35]
+---------------------------------------------------------------
+[ 2018-03-02T02:01:05+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.038159s][吞吐率：26.21req/s] [内存消耗：2,536.80kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36 wechatdevtools/0.11.112301 MicroMessenger/{{version}} webview/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'linchao' => 'chaolin',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:25:00+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.033938s][吞吐率：29.47req/s] [内存消耗：2,799.37kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:26:06+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.030516s][吞吐率：32.77req/s] [内存消耗：2,536.81kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:30:51+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.032641s][吞吐率：30.64req/s] [内存消耗：2,800.38kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:34:39+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.034208s][吞吐率：29.23req/s] [内存消耗：2,800.52kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:35:15+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.043537s][吞吐率：22.97req/s] [内存消耗：2,800.18kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:38:57+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.041633s][吞吐率：24.02req/s] [内存消耗：2,803.77kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:39:55+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.050651s][吞吐率：19.74req/s] [内存消耗：2,536.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:41:15+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.044043s][吞吐率：22.71req/s] [内存消耗：2,803.84kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:46:04+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.031175s][吞吐率：32.08req/s] [内存消耗：2,803.90kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:46:30+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.034196s][吞吐率：29.24req/s] [内存消耗：2,806.59kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:46:34+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.027288s][吞吐率：36.65req/s] [内存消耗：2,536.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:46:41+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.030687s][吞吐率：32.59req/s] [内存消耗：2,536.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:49:18+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.034010s][吞吐率：29.40req/s] [内存消耗：2,800.36kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:52:49+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.037072s][吞吐率：26.97req/s] [内存消耗：2,800.38kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:52:49+08:00 ] 127.0.0.1 GET /index.php/index/example.js
+[ info ] www.appsystem.com/index.php/index/example.js [运行时间：0.036594s][吞吐率：27.33req/s] [内存消耗：2,065.47kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'example.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:52:49+08:00 ] 127.0.0.1 GET /index.php/index/example.js
+[ info ] www.appsystem.com/index.php/index/example.js [运行时间：0.035345s][吞吐率：28.29req/s] [内存消耗：2,065.47kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'example.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:53:02+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.030932s][吞吐率：32.33req/s] [内存消耗：2,536.95kb] [文件加载：37]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:53:02+08:00 ] 127.0.0.1 GET /index.php/index/example.js
+[ info ] www.appsystem.com/index.php/index/example.js [运行时间：0.039543s][吞吐率：25.29req/s] [内存消耗：2,065.47kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'example.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:53:02+08:00 ] 127.0.0.1 GET /index.php/index/example.js
+[ info ] www.appsystem.com/index.php/index/example.js [运行时间：0.045254s][吞吐率：22.10req/s] [内存消耗：2,065.47kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'example.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.appsystem.com/index.php/index/wechat',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T02:55:20+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.124318s][吞吐率：8.04req/s] [内存消耗：3,186.16kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板标签错误:load[C:\wamp64\www\appSystem\thinkphp\library\think\template\TagLib.php:275]
+---------------------------------------------------------------
+[ 2018-03-02T03:09:01+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.033460s][吞吐率：29.89req/s] [内存消耗：2,843.09kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-02T03:11:17+08:00 ] 127.0.0.1 GET /index.php/index/wechat
+[ info ] www.appsystem.com/index.php/index/wechat [运行时间：0.039566s][吞吐率：25.27req/s] [内存消耗：2,803.47kb] [文件加载：39]
+[ info ] [ LANG ] C:\wamp64\www\appSystem\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wechat',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.appsystem.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wechat->index[ C:\wamp64\www\appSystem\application\index\controller\Wechat.php ]
+[ info ] [ VIEW ] C:\wamp64\www\appSystem\public/../application/index\view\wechat\activity_publish.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
