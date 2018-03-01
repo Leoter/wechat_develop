@@ -1,0 +1,1526 @@
+---------------------------------------------------------------
+[ 2018-03-01T18:23:52+08:00 ] 0.0.0.0 GET /wechat_develop/public/
+[ info ] localhost/wechat_develop/public/ [运行时间：0.050938s][吞吐率：19.63req/s] [内存消耗：2,593.43kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: echostr[C:\wamp64\www\wechat_develop\application\index\controller\Index.php:17]
+---------------------------------------------------------------
+[ 2018-03-01T18:24:18+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1 [运行时间：0.037754s][吞吐率：26.49req/s] [内存消耗：2,594.45kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: signature[C:\wamp64\www\wechat_develop\application\index\controller\Index.php:35]
+---------------------------------------------------------------
+[ 2018-03-01T18:24:45+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signture=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signture=1&timestamp=1&nonce=1 [运行时间：0.040765s][吞吐率：24.53req/s] [内存消耗：2,594.76kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signture' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: signature[C:\wamp64\www\wechat_develop\application\index\controller\Index.php:35]
+---------------------------------------------------------------
+[ 2018-03-01T18:24:54+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.043842s][吞吐率：22.81req/s] [内存消耗：2,513.98kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:25:06+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.034406s][吞吐率：29.06req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:25:07+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.027717s][吞吐率：36.08req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:25:07+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.037811s][吞吐率：26.45req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:25:07+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.026012s][吞吐率：38.44req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:25:08+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.028523s][吞吐率：35.06req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:25:08+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.046185s][吞吐率：21.65req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:25:24+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.038917s][吞吐率：25.70req/s] [内存消耗：2,514.11kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:25:25+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.042461s][吞吐率：23.55req/s] [内存消耗：2,514.11kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:25:25+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.027557s][吞吐率：36.29req/s] [内存消耗：2,514.11kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:25:25+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.028238s][吞吐率：35.41req/s] [内存消耗：2,514.11kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:25:49+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.049680s][吞吐率：20.13req/s] [内存消耗：2,094.25kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'return' (T_RETURN)[C:\wamp64\www\wechat_develop\application\index\controller\Index.php:22]
+---------------------------------------------------------------
+[ 2018-03-01T18:26:00+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.031396s][吞吐率：31.85req/s] [内存消耗：2,514.80kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:00+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.030096s][吞吐率：33.23req/s] [内存消耗：2,514.80kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:01+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.027209s][吞吐率：36.75req/s] [内存消耗：2,514.80kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:19+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.030234s][吞吐率：33.08req/s] [内存消耗：2,514.65kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:19+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.044760s][吞吐率：22.34req/s] [内存消耗：2,514.65kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:19+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.030394s][吞吐率：32.90req/s] [内存消耗：2,514.65kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:42+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.029223s][吞吐率：34.22req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:43+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.031609s][吞吐率：31.64req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:43+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.031555s][吞吐率：31.69req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:43+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.033057s][吞吐率：30.25req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:44+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.029596s][吞吐率：33.79req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:44+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.028859s][吞吐率：34.65req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:44+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.031787s][吞吐率：31.46req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:44+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.031739s][吞吐率：31.51req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:45+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.029090s][吞吐率：34.38req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:46+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.027846s][吞吐率：35.91req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:26:47+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.026704s][吞吐率：37.45req/s] [内存消耗：2,514.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:27:20+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.029572s][吞吐率：33.82req/s] [内存消耗：2,513.79kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:27:21+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.032079s][吞吐率：31.17req/s] [内存消耗：2,513.79kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:30:52+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.034341s][吞吐率：29.12req/s] [内存消耗：2,513.79kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:30:54+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.026579s][吞吐率：37.62req/s] [内存消耗：2,513.79kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:31:04+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.037304s][吞吐率：26.81req/s] [内存消耗：2,514.36kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:31:05+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.029596s][吞吐率：33.79req/s] [内存消耗：2,514.36kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:31:07+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.026651s][吞吐率：37.52req/s] [内存消耗：2,514.36kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:31:18+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.030163s][吞吐率：33.15req/s] [内存消耗：2,514.36kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:31:18+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.030884s][吞吐率：32.38req/s] [内存消耗：2,514.36kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:31:18+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.030202s][吞吐率：33.11req/s] [内存消耗：2,514.36kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:31:19+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=1&signature=1&timestamp=1&nonce=1 [运行时间：0.030196s][吞吐率：33.12req/s] [内存消耗：2,514.36kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '1',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:31:27+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=5&signature=1&timestamp=1&nonce=2
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=5&signature=1&timestamp=1&nonce=2 [运行时间：0.029489s][吞吐率：33.91req/s] [内存消耗：2,514.00kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '5',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:35:01+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=5&signature=1&timestamp=1&nonce=2
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=5&signature=1&timestamp=1&nonce=2 [运行时间：0.030173s][吞吐率：33.14req/s] [内存消耗：2,514.36kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '5',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:35:01+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=5&signature=1&timestamp=1&nonce=2
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=5&signature=1&timestamp=1&nonce=2 [运行时间：0.029467s][吞吐率：33.94req/s] [内存消耗：2,514.36kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '5',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:35:02+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=5&signature=1&timestamp=1&nonce=2
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=5&signature=1&timestamp=1&nonce=2 [运行时间：0.029085s][吞吐率：34.38req/s] [内存消耗：2,514.36kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '5',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-01T18:35:08+08:00 ] 0.0.0.0 GET /wechat_develop/public/index.php/index/index?echostr=77777777777777777777&signature=1&timestamp=1&nonce=2
+[ info ] localhost/wechat_develop/public/index.php/index/index?echostr=77777777777777777777&signature=1&timestamp=1&nonce=2 [运行时间：0.028473s][吞吐率：35.12req/s] [内存消耗：2,514.04kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\wechat_develop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=15ef60a833bbd-03d361a6d793b3-c303767-e1000-15ef60a833ca7d; CNZZDATA1263804910=1376734438-1507365087-null%7C1507365087; optimizelyEndUserId=oeu1507193016843r0.2597466290706323; Hm_lvt_080836300300be57b7f34f4b3e97d911=1511882843; _ga=GA1.1.2112477904.1492871199; CNZZDATA1261572618=1345836104-1518068584-%7C1518068584; uuid=5bcdc33819e735e3c9d09be07f6c0ebc; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22161b1d6a7cf645-0588aac1a9e72f-e323462-e1000-161b1d6a7d061a%22%7D; Hm_lvt_2af69bc2b378fb58ae04ed2a04257ed1=1519107091; username-localhost-8888="2|1:0|10:1519616248|23:username-localhost-8888|44:NTNiN2MyM2Q5ZTg4NDM5NGJiNTlhNzU0OWEyMWU5MjM=|c778b0b8188620843c1e6fed02461779ff2655315564d2e3631aae4e19f71383"; _xsrf=2|2522b27f|b3fb1b4c9d5a7987a4c9c428ae705374|1519620034; Hm_lvt_d446e106e09ec868f0e2416bb7a34cfc=1519381790,1519460336,1519472670,1519728364; _gid=GA1.1.924042483.1519837053',
+)
+[ info ] [ PARAM ] array (
+  'echostr' => '77777777777777777777',
+  'signature' => '1',
+  'timestamp' => '1',
+  'nonce' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp64\www\wechat_develop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
